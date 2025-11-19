@@ -1,0 +1,1588 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'fr' Physical Memory: 16003 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Arnaud" at "2025-11-18T15:56:08.6692377Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-18T15:56:08Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Arnaud/Desktop/Jeux/UTILISABLE/Gravity Ball
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59155
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Arnaud/Desktop/Jeux/UTILISABLE/Gravity Ball
+C:/Users/Arnaud/Desktop/Jeux/UTILISABLE/Gravity Ball
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24828]  Target information:
+
+Player connection [24828]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1570078263 [EditorId] 1570078263 [Version] 1048832 [Id] WindowsEditor(7,Arnaud_PROFIZI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24828] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24828] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22452, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              f3d427f0cfec45ec9d1eed9406a73e38
+  Correlation Id:          f351cb76cf55c26f2c17ac6148d151f4
+  External correlation Id: 3414235226322440721
+  Machine Id:              awmg4jTre1CIWEk5EKMpWOv7aIc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Arnaud" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Arnaud-notifications" at "2025-11-18T15:56:08.7625066Z"
+[Licensing::Module] Licensing Background thread has ended after 0.09s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 53.65 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Arnaud/Desktop/Jeux/UTILISABLE/Gravity Ball/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-6VBU-GQ76-3YAQ-GU2D-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 3440655-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.012750 seconds.
+- Loaded All Assemblies, in  1.084 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1838 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.667 seconds
+Domain Reload Profiling: 3746ms
+	BeginReloadAssembly (362ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (427ms)
+			TypeCache.Refresh (422ms)
+				TypeCache.ScanAssembly (388ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2668ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2594ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2157ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-6VBU-GQ76-3YAQ-GU2D-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 3440655-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly 'Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.59.0.dll' will not be loaded due to errors:
+Assembly name 'Google.JarResolver' does not match file name 'Google.JarResolver_v1.2.59.0'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.59.0.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Assembly name 'Google.IOSResolver' does not match file name 'Google.IOSResolver_v1.2.59.0'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.59.0.dll' will not be loaded due to errors:
+Assembly name 'Google.VersionHandlerImpl' does not match file name 'Google.VersionHandlerImpl_v1.2.59.0'
+- Loaded All Assemblies, in  1.139 seconds
+Refreshing native plugins compatible for Editor in 17.37 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Non-secure network connections disabled in Player Settings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:BeginWebRequest ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+JMOAssets.JMOAssets_Menu:StartDownload ()
+JMOAssets.JMOAssets_Menu:CheckStartupUpdate ()
+JMOAssets.JMOAssets_Menu:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\build\output\unity\unity\Modules\UnityWebRequest\Public\Prototypes\UnityWebRequestProto.h line 519]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest_Injected(intptr)
+  at UnityEngine.Networking.UnityWebRequest.BeginWebRequest () [0x0000f] in <a5693f6f1faf4f39a6c9cefc1a5b2555>:0 
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <a5693f6f1faf4f39a6c9cefc1a5b2555>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <37916183dd3c4f44ab9cf13ab9ae239c>:0 
+  at JMOAssets.JMOAssets_Menu.StartDownload () [0x00013] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+  at JMOAssets.JMOAssets_Menu.CheckStartupUpdate () [0x00001] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+  at JMOAssets.JMOAssets_Menu..cctor () [0x000a1] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.316 seconds
+Domain Reload Profiling: 2448ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (715ms)
+		LoadAssemblies (636ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (146ms)
+			BuildScriptInfoCaches (52ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1128ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (640ms)
+			ProcessInitializeOnLoadMethodAttributes (279ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 14.73 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3742 unused Assets / (1.5 MB). Loaded Objects now: 4143.
+Memory consumption went from 86.0 MB to 84.6 MB.
+Total: 16.542600 ms (FindLiveObjects: 1.123200 ms CreateObjectMapping: 0.379100 ms MarkObjects: 13.115800 ms  DeleteObjects: 1.922000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.3 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.5 MB.
+Total: 13.301700 ms (FindLiveObjects: 0.585700 ms CreateObjectMapping: 0.479500 ms MarkObjects: 11.008500 ms  DeleteObjects: 1.225100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.35 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.4 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.4 MB.
+Total: 18.205000 ms (FindLiveObjects: 0.539900 ms CreateObjectMapping: 0.897400 ms MarkObjects: 15.187800 ms  DeleteObjects: 1.577400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.12 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.6 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.2 MB.
+Total: 21.818100 ms (FindLiveObjects: 0.638100 ms CreateObjectMapping: 0.835700 ms MarkObjects: 16.442700 ms  DeleteObjects: 3.897600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 26.93 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.3 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.6 MB.
+Total: 15.529100 ms (FindLiveObjects: 0.690500 ms CreateObjectMapping: 0.353300 ms MarkObjects: 12.944600 ms  DeleteObjects: 1.539100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 30.95 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.2 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.6 MB.
+Total: 15.140700 ms (FindLiveObjects: 0.635000 ms CreateObjectMapping: 0.300700 ms MarkObjects: 12.176400 ms  DeleteObjects: 2.025200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 33.18 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.4 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.4 MB.
+Total: 17.175800 ms (FindLiveObjects: 0.674900 ms CreateObjectMapping: 0.340600 ms MarkObjects: 13.858900 ms  DeleteObjects: 2.299400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 29.87 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.6 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.2 MB.
+Total: 19.252500 ms (FindLiveObjects: 1.139300 ms CreateObjectMapping: 0.568400 ms MarkObjects: 15.474700 ms  DeleteObjects: 2.067500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.91 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.1 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.7 MB.
+Total: 16.150500 ms (FindLiveObjects: 0.379000 ms CreateObjectMapping: 0.260200 ms MarkObjects: 13.782500 ms  DeleteObjects: 1.727000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.4 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.5 MB.
+Total: 15.955400 ms (FindLiveObjects: 0.614900 ms CreateObjectMapping: 0.325400 ms MarkObjects: 13.651200 ms  DeleteObjects: 1.362000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 23.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (275.0 KB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 83.5 MB.
+Total: 20.316200 ms (FindLiveObjects: 0.442700 ms CreateObjectMapping: 0.473700 ms MarkObjects: 17.182700 ms  DeleteObjects: 2.215400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 29.05 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (299.0 KB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 83.5 MB.
+Total: 25.005900 ms (FindLiveObjects: 0.548400 ms CreateObjectMapping: 0.633600 ms MarkObjects: 22.097100 ms  DeleteObjects: 1.724800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.76 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.8 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.0 MB.
+Total: 15.018000 ms (FindLiveObjects: 0.963400 ms CreateObjectMapping: 0.354700 ms MarkObjects: 11.509800 ms  DeleteObjects: 2.188500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.07 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.3 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.5 MB.
+Total: 15.363600 ms (FindLiveObjects: 0.407100 ms CreateObjectMapping: 0.300200 ms MarkObjects: 13.228200 ms  DeleteObjects: 1.426600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 28.41 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (275.1 KB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 83.5 MB.
+Total: 23.710900 ms (FindLiveObjects: 0.795700 ms CreateObjectMapping: 0.980600 ms MarkObjects: 18.768900 ms  DeleteObjects: 3.163200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 34.73 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3617 unused Assets / (1.2 MB). Loaded Objects now: 4108.
+Memory consumption went from 83.8 MB to 82.6 MB.
+Total: 15.309100 ms (FindLiveObjects: 0.478700 ms CreateObjectMapping: 0.303400 ms MarkObjects: 13.112400 ms  DeleteObjects: 1.411500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 154872.297775 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Water/CFX4 Splash Big.prefab
+  artifactKey: Guid(2a630b89a27d30a45b095ced7edb5926) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Water/CFX4 Splash Big.prefab using Guid(2a630b89a27d30a45b095ced7edb5926) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06fbdc75b87d3f1cdaae5f2aa8bf1337') in 0.9721798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.846236 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Water/CFX4 Wet Drops Character (COLLIDE).prefab
+  artifactKey: Guid(05752201b90e99a41979c0cb3051191c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Water/CFX4 Wet Drops Character (COLLIDE).prefab using Guid(05752201b90e99a41979c0cb3051191c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0923bb781271ac0588b4af2928e49e5c') in 0.9011273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Misc/CFXM4_Fragments AB.mat
+  artifactKey: Guid(db67a6a9319c8064dafbf3b63a46e5e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Misc/CFXM4_Fragments AB.mat using Guid(db67a6a9319c8064dafbf3b63a46e5e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b83a90105e0dfea8a954fa2628cbfd1a') in 0.0350106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Fire/CFXM4_FireSparkle AddSoft.mat
+  artifactKey: Guid(44cffb7e9c9a7e04cae71a13a35eef23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Fire/CFXM4_FireSparkle AddSoft.mat using Guid(44cffb7e9c9a7e04cae71a13a35eef23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06e9d65b20597ef142a5d52e41dfde90') in 0.0217031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera H.png
+  artifactKey: Guid(90cdb91b8028d984b9adf63a23402f86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera H.png using Guid(90cdb91b8028d984b9adf63a23402f86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8581c0f9041151e6166b0aca23ee5180') in 0.0673788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Fire/CFXM4_FireBulk AB+AddSoft VColor.mat
+  artifactKey: Guid(f3ee01bcb22edc94a97f370d0fa95ddb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Fire/CFXM4_FireBulk AB+AddSoft VColor.mat using Guid(f3ee01bcb22edc94a97f370d0fa95ddb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c87a635dd144f925c5f98503904d21d') in 0.0135731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Water/CFXM4 Bubbles Breathing.prefab
+  artifactKey: Guid(ce51bed6e039cdd4988ff284d83e4cc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Water/CFXM4 Bubbles Breathing.prefab using Guid(ce51bed6e039cdd4988ff284d83e4cc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cebfd28138b2cb7aafc019aead048942') in 0.0455449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/CFXM4 Flamethrower (CFX Blend).prefab
+  artifactKey: Guid(11f0395b1d753254992bf88ee168d96d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/CFXM4 Flamethrower (CFX Blend).prefab using Guid(11f0395b1d753254992bf88ee168d96d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afeef385b7a87669fec58dfd3233d094') in 0.0542672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/CFXM4 Flamme Soft.prefab
+  artifactKey: Guid(df904babdb8456549a078a1cd1e4e4f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/CFXM4 Flamme Soft.prefab using Guid(df904babdb8456549a078a1cd1e4e4f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ced9fcfa89d433c28e8473301808c181') in 0.0463456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM3_GlowStar ADD.mat
+  artifactKey: Guid(0053b65302e6f7649b1c013c4c41906b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM3_GlowStar ADD.mat using Guid(0053b65302e6f7649b1c013c4c41906b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a84fe81b7fa34e8fb976fadf1c43878') in 0.0107241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/CFXM4 Hit Paint A (Cyan).prefab
+  artifactKey: Guid(b5628881d83713d4fb151d6d81e7f74a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/CFXM4 Hit Paint A (Cyan).prefab using Guid(b5628881d83713d4fb151d6d81e7f74a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11ee20a825f3e29973cf2aae5875d083') in 0.0559973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Explosions/Variants/CFX4 Explosion SoftEdge Air (Blue, No Smoke).prefab
+  artifactKey: Guid(e3a741cefbfa28a4db670784df925359) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Explosions/Variants/CFX4 Explosion SoftEdge Air (Blue, No Smoke).prefab using Guid(e3a741cefbfa28a4db670784df925359) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32148382c0feaf88693a32723537a2a5') in 0.048927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireBulk_Round AB+AddSoft Red.mat
+  artifactKey: Guid(56ae214c1ebe189409cae472070198b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireBulk_Round AB+AddSoft Red.mat using Guid(56ae214c1ebe189409cae472070198b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e255470ab8d4627075a67b1de42a751') in 0.0144276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/CFXM4 Flamme Soft (CFX Blend).prefab
+  artifactKey: Guid(46681fea3eb0d9c4a9ce33ab751ea9a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/CFXM4 Flamme Soft (CFX Blend).prefab using Guid(46681fea3eb0d9c4a9ce33ab751ea9a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81f2debfd9664b3b3116ac6f4a524911') in 0.0505004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo.png
+  artifactKey: Guid(5ec8fc5d939ea2244985ca77a114c9d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo.png using Guid(5ec8fc5d939ea2244985ca77a114c9d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41d9e107f815d8ee252fbb1bb39e1185') in 0.0241083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM4_AuraBubble AB+AddSoft VColor.mat
+  artifactKey: Guid(30de8e46fc21fca4a9f9bcd0aec221da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM4_AuraBubble AB+AddSoft VColor.mat using Guid(30de8e46fc21fca4a9f9bcd0aec221da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e71e1b6bf72a55761ed93107945f375a') in 0.0126262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM4_Glow AB.mat
+  artifactKey: Guid(b12970c9c3bb4f6459cd3c9bc12f6d87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM4_Glow AB.mat using Guid(b12970c9c3bb4f6459cd3c9bc12f6d87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2dc7e7bf07a38b99e3b0a69c830b8b1') in 0.0117682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Stretched/CFXM4_Faded Ray INV.mat
+  artifactKey: Guid(3bd94e149b8a00046935332aa4f752a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Stretched/CFXM4_Faded Ray INV.mat using Guid(3bd94e149b8a00046935332aa4f752a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '924cbf470a7de5d15c410db282d192a2') in 0.0134278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Explosions/Variants/CFX4 Firework A (Red).prefab
+  artifactKey: Guid(9cc2834cb3b9cf643be9175e75858cb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Explosions/Variants/CFX4 Firework A (Red).prefab using Guid(9cc2834cb3b9cf643be9175e75858cb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87b6bd99475f6241bfccb30653115aa2') in 0.039787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Explosions/CFXM4 Black Monster Explosion (Big).prefab
+  artifactKey: Guid(477b766ada09fd34386afe0e0cbf18cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Explosions/CFXM4 Black Monster Explosion (Big).prefab using Guid(477b766ada09fd34386afe0e0cbf18cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0017df856ba73e40e26d0c670d98255') in 0.0520707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Water/CFXM4 Wet Drops Environment (COLLIDE).prefab
+  artifactKey: Guid(201197cc9f4943c4297b7bfdbb5e9fa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Water/CFXM4 Wet Drops Environment (COLLIDE).prefab using Guid(201197cc9f4943c4297b7bfdbb5e9fa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf20008314b93714721491fe07828bc5') in 0.0687305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/CFXM4 Fairy Dust.prefab
+  artifactKey: Guid(e448e1cf7517b6e42a2934382e45486a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/CFXM4 Fairy Dust.prefab using Guid(e448e1cf7517b6e42a2934382e45486a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eaac2c4670979b50d570ff366e00af69') in 0.0566509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Light/CFX4_AuraBubble ADD.mat
+  artifactKey: Guid(b701c416ffd5db94eab6dbfe25b8247e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Light/CFX4_AuraBubble ADD.mat using Guid(b701c416ffd5db94eab6dbfe25b8247e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1954336cca0fbb9709a981f3929a7d8') in 0.0206234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Misc/CFX4_PowHit AB.mat
+  artifactKey: Guid(390795f53e0c5594da28f6e60382c43b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Misc/CFX4_PowHit AB.mat using Guid(390795f53e0c5594da28f6e60382c43b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9f82202e173a1d3dec94a6adb93fe94') in 0.0178872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Misc/CFXM4_Flower AB.mat
+  artifactKey: Guid(61f0d1baabbcf1a418ce23c136bccdbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Misc/CFXM4_Flower AB.mat using Guid(61f0d1baabbcf1a418ce23c136bccdbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dac96912865aa175600646a08d420d41') in 0.0193485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Fire/CFXM4_FireSoft AB+AddSoft Red.mat
+  artifactKey: Guid(be3c7e267f4830542a4e698fb2ac4fbf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Fire/CFXM4_FireSoft AB+AddSoft Red.mat using Guid(be3c7e267f4830542a4e698fb2ac4fbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af9df67ef2b835cef3f023dfec81e387') in 0.0158525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/CFXM4 Magical Ring Loop.prefab
+  artifactKey: Guid(f1ea0320a5aa0a84580d05d563233c25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/CFXM4 Magical Ring Loop.prefab using Guid(f1ea0320a5aa0a84580d05d563233c25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ce4fde6525c8f44f22585d830d67ebf') in 0.0542837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Flower (Green).prefab
+  artifactKey: Guid(e6f78893b0667284084828ccd9b5f326) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Flower (Green).prefab using Guid(e6f78893b0667284084828ccd9b5f326) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e864f305402603de508bae2381c7b09') in 0.0718444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Radar Rings Loop.prefab
+  artifactKey: Guid(1b03323e0276de74bbb6f150f2155180) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Radar Rings Loop.prefab using Guid(1b03323e0276de74bbb6f150f2155180) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bd6d4997078a7d5de1f59e9cc3e4ff3') in 0.0797393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit C (Blue).prefab
+  artifactKey: Guid(16893e3474bc42848af0c063e5ea06d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit C (Blue).prefab using Guid(16893e3474bc42848af0c063e5ea06d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c33eac8ee7bada6c4a03b350fdeda24') in 0.0926899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Paint A (Rainbow).prefab
+  artifactKey: Guid(6d5ebd89bd18e304a8b6f16b3b531616) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Paint A (Rainbow).prefab using Guid(6d5ebd89bd18e304a8b6f16b3b531616) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d495076849dd1aa3fb8695402d16520') in 0.332014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Space/Variants/CFX4_Plasma Ball Bigger (Pink, CFX Blend).prefab
+  artifactKey: Guid(d3497b4b7fd024749842df220810a2e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Space/Variants/CFX4_Plasma Ball Bigger (Pink, CFX Blend).prefab using Guid(d3497b4b7fd024749842df220810a2e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78f0736e1ff3a9d8bf5e08981c2d06d9') in 0.0820985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit B (Blue).prefab
+  artifactKey: Guid(730d866841aa11c4085fe957a782ff26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit B (Blue).prefab using Guid(730d866841aa11c4085fe957a782ff26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91fae4e4d3a41b58372f1586f3de3bfe') in 0.0496464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Electric/Variants/CFXM4 Sparks Explosion Bigger (Blue).prefab
+  artifactKey: Guid(47863544fd3db844f81e56a4c7c5cc2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Electric/Variants/CFXM4 Sparks Explosion Bigger (Blue).prefab using Guid(47863544fd3db844f81e56a4c7c5cc2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '074f1af07acc3fa2c9071ccc3a903814') in 0.061427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Radar Rings (White).prefab
+  artifactKey: Guid(431ae117bc8e3774cbffabafa45e47e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Radar Rings (White).prefab using Guid(431ae117bc8e3774cbffabafa45e47e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd08bb535aebde07230942463ab96a6a4') in 0.0666313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM3_GlowSpike ADD.mat
+  artifactKey: Guid(0a32c42115c5e4d418c034afced866a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM3_GlowSpike ADD.mat using Guid(0a32c42115c5e4d418c034afced866a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c12aff2c604c46b70a4dde6fdcead18a') in 0.0134674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Explosions/Variants/CFXM4 Firework A (Orange).prefab
+  artifactKey: Guid(f065913a5716e9b4d95f4092c1052e68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Explosions/Variants/CFXM4 Firework A (Orange).prefab using Guid(f065913a5716e9b4d95f4092c1052e68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4da53bd440a07ee99eabfcfd63f4c6c1') in 0.043566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Explosions/Variants/CFXM4 Explosion SoftEdge Ground (Green).prefab
+  artifactKey: Guid(e7e729ec436835e48b89567aabd14c2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Explosions/Variants/CFXM4 Explosion SoftEdge Ground (Green).prefab using Guid(e7e729ec436835e48b89567aabd14c2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e30639f5fee3910457a064811c6ac37') in 0.0753651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX4_Demo_Ground.mat
+  artifactKey: Guid(efbf67d898c439741ae90301876d4ffe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX4_Demo_Ground.mat using Guid(efbf67d898c439741ae90301876d4ffe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6934c667369d151ec56f4a75f5d2bbb5') in 0.0848152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Light/CFXM4 Aurora (Slow).prefab
+  artifactKey: Guid(42d416d81c0f8e94ea1270acdfe6f4cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Light/CFXM4 Aurora (Slow).prefab using Guid(42d416d81c0f8e94ea1270acdfe6f4cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f412df6337d2a4b47632eddd8afd0758') in 0.0583332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/Variants/CFXM4 Magical Ring (Orange).prefab
+  artifactKey: Guid(7c7a756c37941c243a99ea92a0957216) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/Variants/CFXM4 Magical Ring (Orange).prefab using Guid(7c7a756c37941c243a99ea92a0957216) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89c5a14f72a0599dbe597d4e0316f162') in 0.0684061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/Variants/CFXM4 Shiny (Blue, CFX Blend).prefab
+  artifactKey: Guid(2767fe6a2e19a5f45919273ef583c751) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/Variants/CFXM4 Shiny (Blue, CFX Blend).prefab using Guid(2767fe6a2e19a5f45919273ef583c751) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b86a41e6d429180c0474f7c69b564d3') in 0.0583553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Flower (Green).prefab
+  artifactKey: Guid(3a12f69b562b4b34ebb526608ab4c82e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Flower (Green).prefab using Guid(3a12f69b562b4b34ebb526608ab4c82e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9044fceb063b8952cef7cd52ba399e1a') in 0.0546401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Flower (Orange).prefab
+  artifactKey: Guid(0b891449ca5dc4c4ca3a003ea5035d22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Flower (Orange).prefab using Guid(0b891449ca5dc4c4ca3a003ea5035d22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d4f4798253d1fdc18e3916b4c7a8386') in 0.0510859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Fire/Variants/CFX4 Flamme Round (Blue, CFX Blend).prefab
+  artifactKey: Guid(b8b5801f1d23239488ad6ec1d9a64f69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Fire/Variants/CFX4 Flamme Round (Blue, CFX Blend).prefab using Guid(b8b5801f1d23239488ad6ec1d9a64f69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89ffcd7d9e4027f85228672a5ac48375') in 0.0571439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Paint C (Blue).prefab
+  artifactKey: Guid(5d1876bdd588c554a8b8591de53c473e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Paint C (Blue).prefab using Guid(5d1876bdd588c554a8b8591de53c473e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de19e31fcce0f9e072ac797d7c72e7bf') in 0.0469166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM4_AuraBubble ADD.mat
+  artifactKey: Guid(ab5c3b9228336964c861ddf1140cf53c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Light/CFXM4_AuraBubble ADD.mat using Guid(ab5c3b9228336964c861ddf1140cf53c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '852af74c455e5d5f7fdb375915f63cf5') in 0.0119441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Space/Variants/CFX4_Plasma Ball (Red-Orange, CFX Blend).prefab
+  artifactKey: Guid(99dde8f73fa84324f8f171abc1809a75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Space/Variants/CFX4_Plasma Ball (Red-Orange, CFX Blend).prefab using Guid(99dde8f73fa84324f8f171abc1809a75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce6777cdc2f11f3dadcb00998a24fa67') in 0.0456869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/CFXM4 Drill Ground Hit (NO COLLISION).prefab
+  artifactKey: Guid(da5658e9c212a084eafd8b8a9adc024b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/CFXM4 Drill Ground Hit (NO COLLISION).prefab using Guid(da5658e9c212a084eafd8b8a9adc024b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd51a497af3be11994f37a5f266f704b5') in 0.0557373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Water/CFXM4_Foam AB A8.mat
+  artifactKey: Guid(7a36e30a0891c7b479a4b43dccbe7f00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Water/CFXM4_Foam AB A8.mat using Guid(7a36e30a0891c7b479a4b43dccbe7f00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd110f02e618ba8ae137fa3ebcdcbba3c') in 0.0084521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Magic/Variants/CFX4 Magic Drain (Purple, CFX Blend).prefab
+  artifactKey: Guid(fa1dc98eeedcd2044b1484458005ab61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Magic/Variants/CFX4 Magic Drain (Purple, CFX Blend).prefab using Guid(fa1dc98eeedcd2044b1484458005ab61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fac26161e672c69cdaa173b4fe149e8a') in 0.0444966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground H.png
+  artifactKey: Guid(5cc9c4a6db9a74a40aaed761fc99294c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground H.png using Guid(5cc9c4a6db9a74a40aaed761fc99294c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '000996867796f121105adf83c3de6200') in 0.0191022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/Variants/CFXM4 Flamme (Blue, CFX Blend).prefab
+  artifactKey: Guid(3f5e8c081f28c2a4d83430585663255b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/Variants/CFXM4 Flamme (Blue, CFX Blend).prefab using Guid(3f5e8c081f28c2a4d83430585663255b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6a1084b6ec671a2fe7609f1077e680a') in 0.0389526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint C (Blue).prefab
+  artifactKey: Guid(a69772b267e52124ab2a39f111119b5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint C (Blue).prefab using Guid(a69772b267e52124ab2a39f111119b5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c704229efe5e74a0907bcfdc1394661') in 0.0615968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Radar Rings (Red).prefab
+  artifactKey: Guid(e76d9aa6b83e855469fbcb6a3a039a3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Radar Rings (Red).prefab using Guid(e76d9aa6b83e855469fbcb6a3a039a3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23396f52db0e4c9ac474dac6914b675c') in 0.0422795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Space/CFXM4_Space Thruster A (Blue).prefab
+  artifactKey: Guid(a8beed21405cf2d44b0d5e58babe412b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Space/CFXM4_Space Thruster A (Blue).prefab using Guid(a8beed21405cf2d44b0d5e58babe412b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40cc2b9196fbe34ad3761a18bd236045') in 0.0374998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Light/CFX4_Glow AB+Add Blue.mat
+  artifactKey: Guid(e75830b8a51e9ed489eedcb6125c3701) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Light/CFX4_Glow AB+Add Blue.mat using Guid(e75830b8a51e9ed489eedcb6125c3701) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b817300a6b2bcd87e3c94d939778b86') in 0.0084996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Light/CFXM4 Aura Bubble B (CFX Blend).prefab
+  artifactKey: Guid(190fe935030982640b8ed31e1dce9e86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Light/CFXM4 Aura Bubble B (CFX Blend).prefab using Guid(190fe935030982640b8ed31e1dce9e86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bac555c7c1c8e991add482dd8eed5603') in 0.0372092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowStar ADD.mat
+  artifactKey: Guid(6b22999712355474795091cef25021b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowStar ADD.mat using Guid(6b22999712355474795091cef25021b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76df4053f8728a60e2bbdc0a6d908393') in 0.0097257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Misc/CFX_Bubble.mat
+  artifactKey: Guid(2656ffd617a68d949a7600cc66478917) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Misc/CFX_Bubble.mat using Guid(2656ffd617a68d949a7600cc66478917) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d85d13c38b8b45c015d950349b44a40') in 0.0119732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint B (Rainbow).prefab
+  artifactKey: Guid(0e39f38511b07ea4dbdee6d3d7a3a751) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint B (Rainbow).prefab using Guid(0e39f38511b07ea4dbdee6d3d7a3a751) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f58863e706e85493804b1d63f1f5dc51') in 0.0406424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Flower (Blue).prefab
+  artifactKey: Guid(34ef783442034b246818c30a14861f20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Flower (Blue).prefab using Guid(34ef783442034b246818c30a14861f20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6757aef579c3a60f16aff9b246749411') in 0.0422995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Space/Variants/CFXM4_Space Thruster A (Orange).prefab
+  artifactKey: Guid(2d0a1eda5586eaa459e0181e9bc0e638) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Space/Variants/CFXM4_Space Thruster A (Orange).prefab using Guid(2d0a1eda5586eaa459e0181e9bc0e638) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6373d574284bed2cd45234b4f548ec90') in 0.0495003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Space/Variants/CFXM4_Space Thruster C (Red-Orange, CFX Blend).prefab
+  artifactKey: Guid(8cb90bd90df4b494b9f8daa830e8b612) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Space/Variants/CFXM4_Space Thruster C (Red-Orange, CFX Blend).prefab using Guid(8cb90bd90df4b494b9f8daa830e8b612) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1294ee4fcdc2fd62fac4888003b54fa') in 0.0483765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint C (Orange).prefab
+  artifactKey: Guid(45c1ca3032d8a874c9c97e186f71490b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint C (Orange).prefab using Guid(45c1ca3032d8a874c9c97e186f71490b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e10d929af164385b98878522b41b1ef') in 0.0442479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint A (Green).prefab
+  artifactKey: Guid(dd79be27f8892d9438e40094d0897d6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint A (Green).prefab using Guid(dd79be27f8892d9438e40094d0897d6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a53d27971c86a59a4b028102b9d2efb') in 0.042813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit C (Green).prefab
+  artifactKey: Guid(ea18e406770754a4ea9a2a33e7674b89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit C (Green).prefab using Guid(ea18e406770754a4ea9a2a33e7674b89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fa495d4e9e45f8ebe5c07029d6feadc') in 0.0509715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Paint C (Rainbow).prefab
+  artifactKey: Guid(70d26b3451a641b43a5669b157f413e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Paint C (Rainbow).prefab using Guid(70d26b3451a641b43a5669b157f413e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd27817443fbadab95cd2bdce34d168d2') in 0.0432793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Misc/CFXM_Bubble.mat
+  artifactKey: Guid(259beca3012030b4b9e4902053013847) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Misc/CFXM_Bubble.mat using Guid(259beca3012030b4b9e4902053013847) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b68e99b74d05d913849ca7caea384a5') in 0.0108059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireBulk AddSoft.mat
+  artifactKey: Guid(53e601bdd2cb5434e96ec915a4e30792) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireBulk AddSoft.mat using Guid(53e601bdd2cb5434e96ec915a4e30792) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6aa86ed76f98c7fc39f89ddbf098a28c') in 0.0126808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireBulk AB+AddSoft VColor.mat
+  artifactKey: Guid(c9752ab877fce5b44b9ff26e5ec9fcea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireBulk AB+AddSoft VColor.mat using Guid(c9752ab877fce5b44b9ff26e5ec9fcea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a6e0ba6598cbca380fbeb86957c9c99') in 0.0094219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Paint B (Green).prefab
+  artifactKey: Guid(bbd4191c89bf29b4aaf3071cbb3c9ef7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Misc/Variants/CFX4 Hit Paint B (Green).prefab using Guid(bbd4191c89bf29b4aaf3071cbb3c9ef7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b017187419c4b490f550a6f867b8cf97') in 0.0425983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Light/CFXM4 Aura Bubble C (CFX Blend).prefab
+  artifactKey: Guid(a13bda146bc5df143aa627933de1597c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Light/CFXM4 Aura Bubble C (CFX Blend).prefab using Guid(a13bda146bc5df143aa627933de1597c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96a0b2582562cee53cdda9173de70d60') in 0.0443459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/CFXM4 Magical Ring.prefab
+  artifactKey: Guid(8cac8cfa57cd05a46b8f25c78463a109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/CFXM4 Magical Ring.prefab using Guid(8cac8cfa57cd05a46b8f25c78463a109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68241ba863d55cfbfb18ab453f29d7e9') in 0.0418117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Water/CFX4_Foam AB A8.mat
+  artifactKey: Guid(97bec0f66f6f1544abf3f71d63d03f5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Water/CFX4_Foam AB A8.mat using Guid(97bec0f66f6f1544abf3f71d63d03f5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0780559f353fb3ea4f37748bc2d7754a') in 0.0087493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo H.png
+  artifactKey: Guid(48624f05b683e4a4ab1a142e40fd6971) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo H.png using Guid(48624f05b683e4a4ab1a142e40fd6971) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '656495a3f5f386165e59bbe1c4573ec8') in 0.0230442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Stretched/CFXM4_Faded Ray AB+AddSoft VColor.mat
+  artifactKey: Guid(f3151affdba780a439567e59d770fc7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Stretched/CFXM4_Faded Ray AB+AddSoft VColor.mat using Guid(f3151affdba780a439567e59d770fc7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd15f9f8db127da332939d62509b3dd99') in 0.0156403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/WSA/SDK80/x86/sqlite3.dll
+  artifactKey: Guid(72f7738ea7880074093e7d4c16b8bd69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/WSA/SDK80/x86/sqlite3.dll using Guid(72f7738ea7880074093e7d4c16b8bd69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c696dc9b4c2d30e45566a5ddd36ea129') in 0.0092295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowDot ADDSOFT.mat
+  artifactKey: Guid(b692d0ba979c41946bbe57f2baba17eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Light/CFX3_GlowDot ADDSOFT.mat using Guid(b692d0ba979c41946bbe57f2baba17eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cdcb7e7f96dde6ed609dfa36853e505') in 0.0111176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireSoft AB+AddSoft Red.mat
+  artifactKey: Guid(29e6c7ebe6feccd4f8e75385e2a67d77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Fire/CFX4_FireSoft AB+AddSoft Red.mat using Guid(29e6c7ebe6feccd4f8e75385e2a67d77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '466507fb546b023fd4d1c54fa6f56eb7') in 0.0122341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/Variants/CFXM4 Shiny (Purple, CFX Blend).prefab
+  artifactKey: Guid(33cffd4ced1061c428e2f6056b8d890e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/Variants/CFXM4 Shiny (Purple, CFX Blend).prefab using Guid(33cffd4ced1061c428e2f6056b8d890e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8837de4d6146200c2a6eca0f28a214e') in 0.054875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials/Stretched/CFX4_Faded Ray AB+AddSoft VColor.mat
+  artifactKey: Guid(5f9753ab2ffb17c4db40bfc5370f26dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials/Stretched/CFX4_Faded Ray AB+AddSoft VColor.mat using Guid(5f9753ab2ffb17c4db40bfc5370f26dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b57f665c3a0072131de7116c6d20d4fd') in 0.0139766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Electric/Variants/CFX4 Sparks Explosion (Green).prefab
+  artifactKey: Guid(b792026e1487a0349a2e40cfde55bef4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Electric/Variants/CFX4 Sparks Explosion (Green).prefab using Guid(b792026e1487a0349a2e40cfde55bef4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e30a0b1f3dfb30adc1208bc3e98fa27a') in 0.045309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Light/Variants/CFX4 Aurora (Orange Yellow).prefab
+  artifactKey: Guid(5f1f8e86bed7c7d4ab9df0d8a927d223) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Light/Variants/CFX4 Aurora (Orange Yellow).prefab using Guid(5f1f8e86bed7c7d4ab9df0d8a927d223) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0cd9331bf23d0571d386e344c329d93b') in 0.0443798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Electric/Variants/CFXM4 Sparks Explosion (White).prefab
+  artifactKey: Guid(18a68d31dae9cc54eb3c1cbb25d3d606) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Electric/Variants/CFXM4 Sparks Explosion (White).prefab using Guid(18a68d31dae9cc54eb3c1cbb25d3d606) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e917308bf857a4dfc882992a64ecf01') in 0.0516944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint B (Green).prefab
+  artifactKey: Guid(27bc5a3308de8714aa0f3a56085e2f17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/Variants/CFXM4 Hit Paint B (Green).prefab using Guid(27bc5a3308de8714aa0f3a56085e2f17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf7cfe153ad75fd79951e3618fc17eb1') in 0.0447007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Space/Variants/CFXM4_Space Thruster A (Green).prefab
+  artifactKey: Guid(1c310818da8ba5e4b8186f7e62eae459) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Space/Variants/CFXM4_Space Thruster A (Green).prefab using Guid(1c310818da8ba5e4b8186f7e62eae459) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbbcc34fbf58cfb26e5df3e0056c8f90') in 0.040335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Space/Variants/CFX4_Space Thruster B (Black, CFX Blend).prefab
+  artifactKey: Guid(228dd2c922d9277458b212fd140b7ffc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Space/Variants/CFX4_Space Thruster B (Black, CFX Blend).prefab using Guid(228dd2c922d9277458b212fd140b7ffc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '214827e1269020634eaa68f459371511') in 0.0457816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Stretched/CFXM4_RayRounded AB+AddSoft VColor.mat
+  artifactKey: Guid(b273f2ff489267f45bb34a00967bf537) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Stretched/CFXM4_RayRounded AB+AddSoft VColor.mat using Guid(b273f2ff489267f45bb34a00967bf537) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c595c0d15206d3e0659621ee5979048') in 0.0171037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Explosions/Variants/CFXM4 Explosion SoftEdge Air (Blue, No Smoke).prefab
+  artifactKey: Guid(1360440801cf17f44aa340c6aac89ac9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Explosions/Variants/CFXM4 Explosion SoftEdge Air (Blue, No Smoke).prefab using Guid(1360440801cf17f44aa340c6aac89ac9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0d9b399cb1fe72bc0da68be47234915') in 0.0464464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Magic/Variants/CFX4 Magic Drain (Blue, CFX Blend).prefab
+  artifactKey: Guid(ea6ed15a828b00e4eb835548cc1e5d32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Magic/Variants/CFX4 Magic Drain (Blue, CFX Blend).prefab using Guid(ea6ed15a828b00e4eb835548cc1e5d32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47f31651ebaaa25bd193661c14817068') in 0.0408402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Explosions/Variants/CFX4 Explosion Quick (No Smoke).prefab
+  artifactKey: Guid(60597115beddddf44a58f84b551e9917) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs/Explosions/Variants/CFX4 Explosion Quick (No Smoke).prefab using Guid(60597115beddddf44a58f84b551e9917) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a95e566daf6584cc234390bba362c0c') in 0.046225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/CFXM4 Magic Hit.prefab
+  artifactKey: Guid(5b54eac983a26484990c32af2edf2086) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Magic/CFXM4 Magic Hit.prefab using Guid(5b54eac983a26484990c32af2edf2086) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e0d669c6ad8d57650668261874ab903') in 0.0400067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/CFXM4 SmokePuff Ground B.prefab
+  artifactKey: Guid(57f53ea4a9ac9cf47825264a57f4de1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Misc/CFXM4 SmokePuff Ground B.prefab using Guid(57f53ea4a9ac9cf47825264a57f4de1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2251dff753f6ca10eda89aef95e106da') in 0.0472494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Misc/CFXM2_Glow.mat
+  artifactKey: Guid(c51a3ff7fb052ba43ace81da2422523e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/Materials (Mobile)/Misc/CFXM2_Glow.mat using Guid(c51a3ff7fb052ba43ace81da2422523e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '024f3c8b73c79ace2b31caeee9dd3f8f') in 0.0086024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/CFXM4 Flamethrower.prefab
+  artifactKey: Guid(8264e40c34be0b940b8d00d802dee446) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Fire/CFXM4 Flamethrower.prefab using Guid(8264e40c34be0b940b8d00d802dee446) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4043ed819bbf41417e3f3e0951895c9a') in 0.0441869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Light/Variants/CFXM4 Aura Bubble A (Blue, CFX Blend).prefab
+  artifactKey: Guid(a9ec46f0df9ff3240be72e1e4c0335a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/JMO Assets/Cartoon FX/CFX4 Prefabs (Mobile)/Light/Variants/CFXM4 Aura Bubble A (Blue, CFX Blend).prefab using Guid(a9ec46f0df9ff3240be72e1e4c0335a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b954d51ee0fad2ad7954d7db5441038') in 0.0421722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-6VBU-GQ76-3YAQ-GU2D-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 3440655-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly 'Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.59.0.dll' will not be loaded due to errors:
+Assembly name 'Google.JarResolver' does not match file name 'Google.JarResolver_v1.2.59.0'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.59.0.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Assembly name 'Google.IOSResolver' does not match file name 'Google.IOSResolver_v1.2.59.0'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.59.0.dll' will not be loaded due to errors:
+Assembly name 'Google.VersionHandlerImpl' does not match file name 'Google.VersionHandlerImpl_v1.2.59.0'
+- Loaded All Assemblies, in  1.386 seconds
+Refreshing native plugins compatible for Editor in 21.22 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Non-secure network connections disabled in Player Settings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:BeginWebRequest ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+JMOAssets.JMOAssets_Menu:StartDownload ()
+JMOAssets.JMOAssets_Menu:CheckStartupUpdate ()
+JMOAssets.JMOAssets_Menu:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\build\output\unity\unity\Modules\UnityWebRequest\Public\Prototypes\UnityWebRequestProto.h line 519]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest_Injected(intptr)
+  at UnityEngine.Networking.UnityWebRequest.BeginWebRequest () [0x0000f] in <a5693f6f1faf4f39a6c9cefc1a5b2555>:0 
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <a5693f6f1faf4f39a6c9cefc1a5b2555>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <37916183dd3c4f44ab9cf13ab9ae239c>:0 
+  at JMOAssets.JMOAssets_Menu.StartDownload () [0x00013] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+  at JMOAssets.JMOAssets_Menu.CheckStartupUpdate () [0x00001] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+  at JMOAssets.JMOAssets_Menu..cctor () [0x000a1] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.775 seconds
+Domain Reload Profiling: 3154ms
+	BeginReloadAssembly (367ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (862ms)
+		LoadAssemblies (711ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (281ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1585ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (1102ms)
+			ProcessInitializeOnLoadMethodAttributes (257ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 19.07 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3744 unused Assets / (1.4 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.7 MB to 86.3 MB.
+Total: 15.753300 ms (FindLiveObjects: 0.386400 ms CreateObjectMapping: 0.293500 ms MarkObjects: 13.702500 ms  DeleteObjects: 1.369400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 20.80 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.3 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 85.9 MB.
+Total: 15.369500 ms (FindLiveObjects: 0.434600 ms CreateObjectMapping: 0.311400 ms MarkObjects: 12.940700 ms  DeleteObjects: 1.680600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 61.38 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.6 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 85.5 MB.
+Total: 36.071300 ms (FindLiveObjects: 0.976400 ms CreateObjectMapping: 0.498000 ms MarkObjects: 31.437000 ms  DeleteObjects: 3.158100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 52.61 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.6 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 85.6 MB.
+Total: 32.812900 ms (FindLiveObjects: 1.134100 ms CreateObjectMapping: 0.447100 ms MarkObjects: 28.301500 ms  DeleteObjects: 2.927500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 57.31 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.3 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 85.8 MB.
+Total: 27.715600 ms (FindLiveObjects: 0.987800 ms CreateObjectMapping: 0.726600 ms MarkObjects: 23.209300 ms  DeleteObjects: 2.788100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 55.35 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.4 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 85.7 MB.
+Total: 30.345100 ms (FindLiveObjects: 0.986500 ms CreateObjectMapping: 0.502100 ms MarkObjects: 25.877300 ms  DeleteObjects: 2.976300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.89 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.1 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 86.0 MB.
+Total: 18.470500 ms (FindLiveObjects: 0.909300 ms CreateObjectMapping: 0.713600 ms MarkObjects: 15.167100 ms  DeleteObjects: 1.676700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 21.10 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.0 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 86.1 MB.
+Total: 13.976700 ms (FindLiveObjects: 0.900200 ms CreateObjectMapping: 0.455100 ms MarkObjects: 11.434500 ms  DeleteObjects: 1.184700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 28.59 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.2 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 85.9 MB.
+Total: 17.055200 ms (FindLiveObjects: 0.685100 ms CreateObjectMapping: 0.335200 ms MarkObjects: 13.570100 ms  DeleteObjects: 2.462000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.19 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.4 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 85.7 MB.
+Total: 14.656600 ms (FindLiveObjects: 0.712000 ms CreateObjectMapping: 0.547600 ms MarkObjects: 11.681400 ms  DeleteObjects: 1.713400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 130.84 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.4 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 85.8 MB.
+Total: 47.340500 ms (FindLiveObjects: 1.470500 ms CreateObjectMapping: 0.919000 ms MarkObjects: 40.346300 ms  DeleteObjects: 4.601700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 119.04 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3638 unused Assets / (1.5 MB). Loaded Objects now: 4150.
+Memory consumption went from 87.1 MB to 85.6 MB.
+Total: 45.819400 ms (FindLiveObjects: 1.113500 ms CreateObjectMapping: 1.107300 ms MarkObjects: 37.246300 ms  DeleteObjects: 6.349200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly 'Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.59.0.dll' will not be loaded due to errors:
+Assembly name 'Google.JarResolver' does not match file name 'Google.JarResolver_v1.2.59.0'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.59.0.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Assembly name 'Google.IOSResolver' does not match file name 'Google.IOSResolver_v1.2.59.0'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.59.0.dll' will not be loaded due to errors:
+Assembly name 'Google.VersionHandlerImpl' does not match file name 'Google.VersionHandlerImpl_v1.2.59.0'
+- Loaded All Assemblies, in  1.179 seconds
+Refreshing native plugins compatible for Editor in 29.38 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Non-secure network connections disabled in Player Settings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:BeginWebRequest ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+JMOAssets.JMOAssets_Menu:StartDownload ()
+JMOAssets.JMOAssets_Menu:CheckStartupUpdate ()
+JMOAssets.JMOAssets_Menu:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\build\output\unity\unity\Modules\UnityWebRequest\Public\Prototypes\UnityWebRequestProto.h line 519]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest_Injected(intptr)
+  at UnityEngine.Networking.UnityWebRequest.BeginWebRequest () [0x0000f] in <a5693f6f1faf4f39a6c9cefc1a5b2555>:0 
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <a5693f6f1faf4f39a6c9cefc1a5b2555>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <37916183dd3c4f44ab9cf13ab9ae239c>:0 
+  at JMOAssets.JMOAssets_Menu.StartDownload () [0x00013] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+  at JMOAssets.JMOAssets_Menu.CheckStartupUpdate () [0x00001] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+  at JMOAssets.JMOAssets_Menu..cctor () [0x000a1] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.365 seconds
+Domain Reload Profiling: 2537ms
+	BeginReloadAssembly (328ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (709ms)
+		LoadAssemblies (713ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1366ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (231ms)
+			ProcessInitializeOnLoadAttributes (645ms)
+			ProcessInitializeOnLoadMethodAttributes (248ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 28.48 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3740 unused Assets / (1.0 MB). Loaded Objects now: 4152.
+Memory consumption went from 87.6 MB to 86.5 MB.
+Total: 13.198200 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.334600 ms MarkObjects: 11.158000 ms  DeleteObjects: 1.267900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly 'Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.59.0.dll' will not be loaded due to errors:
+Assembly name 'Google.JarResolver' does not match file name 'Google.JarResolver_v1.2.59.0'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.59.0.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Assembly name 'Google.IOSResolver' does not match file name 'Google.IOSResolver_v1.2.59.0'
+Assembly 'Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.59.0.dll' will not be loaded due to errors:
+Assembly name 'Google.VersionHandlerImpl' does not match file name 'Google.VersionHandlerImpl_v1.2.59.0'
+- Loaded All Assemblies, in  1.095 seconds
+Refreshing native plugins compatible for Editor in 22.87 ms, found 6 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Non-secure network connections disabled in Player Settings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Networking.UnityWebRequest:BeginWebRequest ()
+UnityEngine.Networking.UnityWebRequest:SendWebRequest ()
+UnityEngine.WWW:.ctor (string)
+JMOAssets.JMOAssets_Menu:StartDownload ()
+JMOAssets.JMOAssets_Menu:CheckStartupUpdate ()
+JMOAssets.JMOAssets_Menu:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\build\output\unity\unity\Modules\UnityWebRequest\Public\Prototypes\UnityWebRequestProto.h line 519]
+
+System.InvalidOperationException: Insecure connection not allowed
+  at (wrapper managed-to-native) UnityEngine.Networking.UnityWebRequest.BeginWebRequest_Injected(intptr)
+  at UnityEngine.Networking.UnityWebRequest.BeginWebRequest () [0x0000f] in <a5693f6f1faf4f39a6c9cefc1a5b2555>:0 
+  at UnityEngine.Networking.UnityWebRequest.SendWebRequest () [0x00001] in <a5693f6f1faf4f39a6c9cefc1a5b2555>:0 
+  at UnityEngine.WWW..ctor (System.String url) [0x00014] in <37916183dd3c4f44ab9cf13ab9ae239c>:0 
+  at JMOAssets.JMOAssets_Menu.StartDownload () [0x00013] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+  at JMOAssets.JMOAssets_Menu.CheckStartupUpdate () [0x00001] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+  at JMOAssets.JMOAssets_Menu..cctor () [0x000a1] in <a7aa7c6095e5420583c7f523f7294ab4>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.437 seconds
+Domain Reload Profiling: 2527ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (678ms)
+		LoadAssemblies (653ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1438ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (210ms)
+			ProcessInitializeOnLoadAttributes (716ms)
+			ProcessInitializeOnLoadMethodAttributes (283ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 27.45 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3740 unused Assets / (1.2 MB). Loaded Objects now: 4154.
+Memory consumption went from 87.6 MB to 86.4 MB.
+Total: 20.843500 ms (FindLiveObjects: 1.061200 ms CreateObjectMapping: 0.824900 ms MarkObjects: 17.139600 ms  DeleteObjects: 1.815900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
